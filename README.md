@@ -2,7 +2,7 @@
 
 by Johns Hopkins University
 
-##WEEK 1
+## WEEK 1
 ---
 **Environment Setting**
 - broswer-sync
@@ -19,8 +19,8 @@ echo $PATH
 node --version
 browser-sync --version
 ```
-- Generate site
+- Generate commands
 ```bash
 browser-sync --server --directory --files "*"
-
+echo $PATH
 ```
