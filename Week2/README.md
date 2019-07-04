@@ -5,7 +5,9 @@ by Johns Hopkins University
 ## WEEK 2
 
 ### Useful commands
+
 ---
+
 ```css
 font-size: 24px;
 font-weight: bold;
@@ -16,7 +18,9 @@ text-align: center;
 ```
 
 ### Anatomy of a CSS Rule
+
 ---
+
 ```css
 p {
     color: red;
@@ -24,9 +28,13 @@ p {
     width: 50px;
   }
 ```
+
 ### Element, Class, and ID Selectors
+
 ---
-**Elements Selectors**
+
+#### Elements Selectors
+
 ```css
 /* all p AND h1 elements */
 p, h1 {
@@ -34,11 +42,14 @@ p, h1 {
   text-align: center;
 }
 ```
+
 ```html
 <h1>Simple Selectors (h1)</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
 ```
-**Class Selectors**
+
+#### Class Selectors
+
 ```css
 /* all with class="highlight" */
 .highlight {
@@ -49,10 +60,13 @@ p, h1 {
   opacity: .6;
 }
 ```
+
 ```html
 <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
 ```
-**ID Selectors**
+
+#### ID Selectors
+
 ```css
 /* element with id="mainPoint" */
 #mainPoint {
@@ -62,12 +76,15 @@ p, h1 {
   opacity: .7;
 }
 ```
+
 ```html
 <span id="mainPoint">id="mainPoint".</span> </div>
 ```
-**Group Selectors**
+
+#### Group Selectors
+
 ```css
 div, .blue{
-	color: blue
+  color: blue
 }
 ```
