@@ -91,6 +91,8 @@ div, .blue{
 
 ### Combining Selectors
 
+---
+
 #### Element with class selector
 
 ```css
@@ -119,6 +121,8 @@ Every **p** element is a **direct** child of **article**.
 
 #### Descendant Selector
 
+---
+
 ```css
 article p{
   color: blue;
@@ -128,6 +132,8 @@ article p{
 Every **p** element is a **inside** **article**.
 
 ### Pseudo-Class Selectors
+
+---
 
 ``` css
 
