@@ -2,13 +2,14 @@ li{
     color: orangered
 }
 
-p {
-    color: red;
+h2, .topic {
+    color: peru;
     font-size: 20px;
-    width: 50px;
-  }
-  h1 {
-    color: green;
-    font-size: 36px;
+    width: 30px;
     text-align: center;
   }
+h1 {
+color: green;
+font-size: 36px;
+text-align: center;
+}
