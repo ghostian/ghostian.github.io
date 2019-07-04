@@ -88,3 +88,42 @@ div, .blue{
   color: blue
 }
 ```
+
+### Combining Selectors
+
+#### Element with class selector
+
+```css
+p.big{
+  font-size: 20px;
+}
+```
+
+#### Child Selector
+
+```css
+article > p {
+  color: blue;
+}
+```
+
+It will effect the structure like this:
+
+```html
+<article>
+  <p> ... </p>
+</article>  
+```
+
+Every **p** element is a **direct** child of **article**.
+
+#### Descendant Selector
+
+```css
+article p{
+  color: blue;
+}
+```
+
+Every **p** element is a **inside** **article**.
+
