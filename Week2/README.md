@@ -3,3 +3,7 @@
 by Johns Hopkins University
 
 ## WEEK 2
+
+### Anatomy of a CSS Rule
+---
+
