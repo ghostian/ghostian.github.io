@@ -3,7 +3,9 @@
 by Johns Hopkins University
 
 ## WEEK 1
-###Environment Setting
+
+### Environment Setting
+
 ---
 
 - broswer-sync
@@ -14,11 +16,11 @@ sudo npm install -g browser-sync
 
 - node.js
 
-```
+```link
 https://nodejs.org/en/
 ```
 
-- version check 
+- version check
 
 ```bash
 echo $PATH
@@ -32,27 +34,32 @@ browser-sync --version
 browser-sync --server --directory --files "*"
 echo $PATH
 ```
-**Useful Websites**
+### Useful Websites
+
 - [jsfiddle](https://jsfiddle.net/)
 - [codepen](https://codepen.io/)
 - [css-tricks](https://css-tricks.com/)
 - [caniuse](https://caniuse.com/)
 - [w3validator](https://validator.w3.org)
 
-###Tags
----
-`<h1>`			: Header 
-`<p>`				: Paragraph
-`<title>`		: Title
-`<body>`		: Body
-`<nav>`			: Navigation, usually linkes to other parts of the website
-`<section>`	: Section tag, usually with a subtag of `<artical>`
-`<articl>`	: Article
-`<aside>`		: Some information that relates tot he main topic, i.e., related posts.
+### Tags
 
-###Lists
 ---
-**Unordered List**
+`<h1>`: Header </br>
+`<p>`: Paragraph </br>
+`<title>`: Title </br>
+`<body>`: Body </br>
+`<nav>`: Navigation, usually linkes to other parts of the website </br>
+`<section>`: Section tag, usually with a subtag of `<artical>` </br>
+`<articl>`: Article </br>
+`<aside>`: Some information that relates tot he main topic, i.e., related posts. </br>
+
+### Lists
+
+---
+
+#### Unordered List
+
 ```html
 <body>
   <h1>Unordered list</h1>
@@ -72,7 +79,9 @@ echo $PATH
     </ul>
   </div>
 ```
-**Ordered List**
+
+#### Ordered List
+
 ```html
   <div>
     Oreo cookie eating procedure:
@@ -91,10 +100,11 @@ echo $PATH
   </div>
 ```
 
-###HTML Character Entity References
+### HTML Character Entity References
+
 ---
 Actions | Represented in HTML
-:-- | --- 
+:-- | ---
 < | `&lt;`
 > | `&gt;`
 & | `&amp;`
@@ -102,33 +112,41 @@ Actions | Represented in HTML
 non breaking space | `&nbsp;`
 ""|`&quot;`
 
-###Create Links
----
-**The`a`element**
--	Flow content
--	Phrasing content
--	Interactive content
--	Palpable content
+### Create Links
 
-**Internal Link**
+---
+**The `"a"` element**
+
+- Flow content
+- Phrasing content
+- Interactive content
+- Palpable content
+
+#### Internal Link
+
 ```html
     <a href="same-directory.html" title="same dir link">Linking to a file in the same directory</a>
 ```
+
 or
+
 ```html
     <a href="same-directory.html" title="same dir link">
       <div> DIV Linking to a file in the same directory</div>
     </a>
 ```
 
-**External Link**
+#### External Link
+
 ```html
 <a href="http://www.facebook.com/CourseraWebDev" 
 target="_blank" title="Like Our Page!">Course Facebook Page</a>
 ```
+
 - `_blank`: open a new tab to the new page
 
-**Same Page Link**
+#### Same Page Link
+
 ```html
     <ul>
       <!-- Link to every section in the page -->
@@ -138,19 +156,19 @@ target="_blank" title="Like Our Page!">Course Facebook Page</a>
     </ul>
 ```
 
-**Same Directory Link**
+#### Same Directory Link
 
 ```html
   <h1>Same directory as links-internal.html</h1>
   <a href="links-internal.html" title="Back to internal links page">Back to links-internal.html</a>
 ```
 
-**Displaying Images**
+#### Displaying Images
+
 ```html
 <img src="picture-with-quote.jpg" width="400" height="235" alt="Picture with a quote">
 ```
+
 ```html
 <img src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" width="640" height="480">
 ```
-
-
