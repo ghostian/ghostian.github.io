@@ -1,20 +1,51 @@
-li{
-    color: orangered
+header li {
+  list-style: none;
+}
+/* 
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: green;
+  border: 1px solid wheat;
+  color: rgb(30, 163, 141);
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+} */
+
+a:hover,
+a:active {
+  background-color: rgb(67, 65, 199);
+  color: greenyellow
 }
 
-h2, .topic {
-    color: peru;
-    font-size: 20px;
-    /* width: 30px; */
-    text-align: center;
-    display: inline;
-  }
+article.footer {
+  color: rgb(36, 47, 56)
+}
+
+h2,
+.topic {
+  color: peru;
+  font-size: 20px;
+  /* width: 30px; */
+  text-align: center;
+  display: inline;
+}
+
 h1 {
-color: green;
-font-size: 36px;
-text-align: center;
+  color: green;
+  font-size: 36px;
+  text-align: center;
 }
 
-img {
-  align :"middle";
+
+
+section div:nth-child(odd) {
+  background-color: gray;
+}
+
+section div:nth-child(4):hover {
+  background-color: green;
+  cursor: pointer;
 }
