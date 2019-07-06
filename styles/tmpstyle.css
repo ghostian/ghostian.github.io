@@ -1,5 +1,14 @@
 header li {
   list-style: none;
+  font-family: Verdana, sans-serif  
+}
+
+section {
+  text-align: center;
+  font-family: Trebuchet MS, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
 }
 /* 
 a:link,
@@ -48,4 +57,19 @@ section div:nth-child(odd) {
 section div:nth-child(4):hover {
   background-color: green;
   cursor: pointer;
+}
+
+
+
+/*From week2*/
+#box {
+  /*background-color: blue;*/
+  padding: 10px;
+  border: 2px solid black;
+  width: 400px;
+  height: 50px;
+  margin-top: 50px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
