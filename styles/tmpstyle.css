@@ -1,3 +1,15 @@
+#iconbg{
+  width: 350px;
+  height:80px;
+  background-color: greenyellow;
+  float: right;
+  clear: left;
+}
+
+p img {
+  clear: left;
+}
+
 header li {
   list-style: none;
   font-family: Verdana, sans-serif  

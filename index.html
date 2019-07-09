@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Ghostian</title>
@@ -9,17 +8,19 @@
   <link rel="stylesheet" type="text/css" href="styles/tmpstyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/icon.css">
+  <!-- <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css"> -->
   </link>
 </head>
 <header>
   <h1 id="top">Ghostian</h1>
   <!-- Add font awesome icons -->
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-linkedin"></a>
-  <a href="#" class="fa fa-google"></a>
-  <a href="#" class="fa fa-vimeo"></a>
-  </br>
-  <img src="gamedog.jpg" width="400" height="235">
+  <div id="iconbg">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-vimeo"></a>
+  </div>
+  <p> <img src="gamedog.jpg" width="400" height="235"></p>
   <ul>
     <!-- Link to every section in the page -->
     <li><a href="#section1">Education</a></li>
@@ -32,6 +33,17 @@
   </ul>
 </header>
 
+<style>
+@media(min-width: 1200px){
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}  
+</style>
 <body>
   <section id="section1">
     <h2 class="topic">Education</h2>
