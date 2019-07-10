@@ -18,7 +18,7 @@ sudo npm install -g browser-sync
 https://nodejs.org/en/
 ```
 
-- version check 
+- version check
 
 ``` bash
 echo $PATH
