@@ -6,7 +6,7 @@ body {
   color: rgba(15, 15, 15, 0.8);
 }
 
-.container {
+.container#messgrid {
   height: 100vh;
   display: flex;
   overflow: hidden;
