@@ -5,6 +5,12 @@
   order: 0;
 }
 
+#logo-img{
+  background: url('../images/gamedog.jpg') no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px 10px 0;
+}
 /** Icon **/
 #iconbg {
   width: 350px;
