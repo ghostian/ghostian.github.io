@@ -104,3 +104,11 @@ section div:nth-child(4):hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+.row{
+  margin-bottom: 15px;
+}
+.row > div{
+  border: 2px solid red;
+  background-color: gray;
+}
