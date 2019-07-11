@@ -6,11 +6,42 @@
 }
 
 #logo-img{
-  background: url('../images/gamedog.jpg') no-repeat;
+  background: url('../images/cmu-name-logo.jpg') no-repeat;
   width: 50px;
   height: 50px;
   margin: 10px 15px 10px 0;
 }
+
+.navbar-brand{
+  padding-top: 25pt;
+}
+
+.navbar-brand h1{
+  /* font-family: 'Lora', serif; */
+  color: grey;
+  font-size: 15.em;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 1px #222; */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+.navbar-brand p{
+  color: #000;
+  font-size: .7em;
+  margin-top: 15px; 
+}
+
+.navbar-brand p span{
+  vertical-align: middle;
+}
+
 /** Icon **/
 #iconbg {
   width: 350px;
@@ -90,11 +121,11 @@ h2,
   display: inline;
 }
 
-h1 {
+/* h1 {
   color: green;
   font-size: 36px;
   text-align: center;
-}
+} */
 
 
 
