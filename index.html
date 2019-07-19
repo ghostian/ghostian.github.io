@@ -6,17 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Ghostian</title>
-  <link rel="stylesheet" type="text/css" href="styles/messgrid.css">
+  <!-- <link rel="stylesheet" type="text/css" href="styles/messgrid.css"> -->
   <!-- <link rel="stylesheet" type="text/css" href="styles/background.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/icon.css">
   <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css"> 
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
   </link>
 </head>
 <header>
   <h1 id="top">Ghostian</h1>
 </header>
+
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
@@ -25,35 +26,81 @@
           <a href="index.html" class="pull-left">
             <div id="logo-img" alt="Logo image"></div>
           </a>
-
           <div class="navbar-brand">
-            <a href="index.html"><h1>Junxiao Guo</h1></a>
-            <P>
+            <a href="index.html">
+              <h1>Junxiao Guo</h1>
+            </a>
+            <p>
               <img src="images/cmu-logo.jpeg" alt="tmppic" width="30pt">
               <span>Master Student at Carnegie Mellon University</span>
-            </P>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a>
+              <div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
       </div>
     </nav>
+    <!-- Add font awesome icons -->
+    <div id="iconbg">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/junxiaog" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-vimeo"></a>
+    </div>
   </header>
   <div>
     <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6">Col 2</div>
-      <div class="col-md-4 col-sm-6">Col 3</div>
+      <div class="col-md-4 col-sm-6">
+        <a href="#section1">Education</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <a href="#section2">Skills</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <a href="#section3">Experience</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <a href="#section4">Projects</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <a href="#section5">Honor & Awards</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <a href="#section7">Others</a>
+      </div>
     </div>
   </div>
   <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
   <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
   <script src="bootstrap-4.3.1-dist/js/script.js"></script>
-  <!-- Add font awesome icons -->
-  <div id="iconbg">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="https://www.linkedin.com/in/junxiaog" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-google"></a>
-    <a href="#" class="fa fa-vimeo"></a> 
-  </div>
-  <div id="menu-outer">
+
+  <!-- <div id="menu-outer">
     <div class="table">
       <ul id="horizontal-list">
         <li><a href="#section1">Education</a></li>
@@ -65,40 +112,38 @@
         <li><a href="#section7">Others</a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
   <section id="section1">
-    <h2 class="topic">Education</h2>
+    <div>Education</div>
     <p id="box">
       <a href="https://www.cmu.edu/" target="_blank" title="Go to CMU website">Carnegie Mellon University</a>
     </p>
   </section>
 
   <section id="section2">
-    <h2 class="topic">Skills</h2>
+    <div>Skills</div>
     <p>
-      <section>Programming Language</section>
+      <h4>Programming Language</h4>
       <article>Python, C, Java, Scala</article>
     </p>
   </section>
   <section id="section3">
-    <h2 class="topic">Experience</h2>
+    <div>Experience</div>
     <p></p>
   </section>
   <section id="section4">
-    <h2 class="topic">Academic Projects</h2>
+    <div>Academic Projects</div>
     <p></p>
   </section>
   <section id="section5">
-    <h2 class="topic">Honor & Awards</h2>
+    <div>Honor & Awards</div>
     <p></p>
-  </section id="section6">
-  <h2 class="topic">Extra Curriculum</a></h2>
-
-
-
+  <section id="section6">
+    <div>Extra Curriculum</div>
+    <p></p>
 
   <!--  -->
-  <div class="container" id="messgrid">
+  <!-- <div class="container" id="messgrid">
     <div class="grid">
       <div class="big-letters">
         <br /> Ghostian
@@ -137,10 +182,10 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
   <!--  -->
   <article class="footer">Ghostian 2019 &copy; Copyright</article>
-  <p>
+  <p class="footer">
     <a href="#top">Back to Top</a>
   </p>
 </body>

@@ -46,9 +46,9 @@
 #iconbg {
   width: 350px;
   height: 80px;
-  background-color: greenyellow;
-  float: right;
-  clear: left;
+  /* background-color: rgb(170, 187, 145); */
+  /* float: right;
+  clear: left; */
 }
 
 p img {
@@ -108,16 +108,22 @@ a:active {
   color: greenyellow
 }
 
-article.footer {
-  color: rgb(36, 47, 56)
+.footer {
+  color: red;
+  text-align: left;
+}
+
+p.footer{
+  font-size: 12px;
 }
 
 h2,
 .topic {
-  color: peru;
-  font-size: 20px;
+  color: rgb(167, 197, 167);
+  font-size: 30px;
   /* width: 30px; */
-  text-align: center;
+  text-align: left;
+  /* float: left; */
   display: inline;
 }
 
@@ -138,19 +144,23 @@ section div:nth-child(4):hover {
   cursor: pointer;
 }
 
-
+article{
+  font-size: 15px;
+} 
 
 /*From week2*/
 #box {
   /*background-color: blue;*/
-  padding: 10px;
+  font-size: 15px;
+  padding: 3px;
   border: 2px solid black;
-  width: 400px;
-  height: 50px;
-  margin-top: 50px;
+  width: 500px;
+  height: 30px;
+  margin-top: 10px;
   overflow: auto;
   margin-left: auto;
   margin-right: auto;
+  align-self: auto;
 }
 
 .row {
@@ -158,8 +168,8 @@ section div:nth-child(4):hover {
 }
 
 .row>div {
-  border: 2px solid red;
-  background-color: gray;
+  border: 2px solid whitesmoke;
+  background-color: rgb(71, 76, 80);
 }
 
 body {
