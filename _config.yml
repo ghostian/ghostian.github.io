@@ -85,8 +85,8 @@ author:
   bio              : "Master Student of Electrical & Computer Engineering at Carnegie Mellon University"
   location         : "Pittsburgh"
   employer         : "NIO"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "guojunxiao2010@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
