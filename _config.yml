@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Junxiao Guo"
 title_separator          : "-"
 name                     : &name "Junxiao Guo"
-description              : &description "personal description"
+description              : &description "Master Student of Electrical & Computer Engineering at Carnegie Mellon University"
 url                      : http://www.junxiaoguo.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ghostian/ghostian.github.io"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Junxiao Guo"
   avatar           : "jx_profile.jpeg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Master Student of Electrical & Computer Engineering at Carnegie Mellon University"
   location         : "Pittsburgh"
   employer         : "NIO"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "junxiaog"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
