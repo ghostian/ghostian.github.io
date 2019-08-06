@@ -19,13 +19,13 @@ defaults:
 description: Ghostian's blog
 author:
   name: Ghostian
-  email: Ghostian95@outlook.com
+  email: guojunxiao2010@outlook.com
   github: ghostian
   twitter: ghostian
   # pinterest: asd123
   linkedin: jx95
   bio: Master Student of Electrical & Computer Engineering at Carnegie Mellon University
-  # email_md5: 726351295ec82e145928582f595aa3aa
+  email_md5: bab5543c3df341448f392bfcfa4eb473
 
 # rss_path: feed.xml
 categories_path: categories.html
