@@ -1,38 +1,40 @@
-# Site settings
-title: "Junxiao Guo"
-email: guojunxiao2010@outlook.com
-description: "Junxiao Guo's Blog"
-baseurl: ""
-url: "https://ghostian.github.io/"
-title_description: "Master Student of Electrical & Computer Engineering at Carnegie Mellon University"
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/ghostian
-# addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Social usernames/URLs
-twitter_username: ghostian
-github_username:  ghostian
-# instagram_username: 
-# reddit_username: 
-linkedin_link: https://linkedin.com/in/jx95/
-# google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-# stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
-# xing_link:
-# facebook_link:
-
-# Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by Junxiao Guo"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/ghostian\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
 markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: dbyll
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
 
-permalink: pretty
-exclude: [vendor]
+description: Stylish Jekyll Theme
+author:
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  twitter: dbtek
+  pinterest: asd123
+  linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate

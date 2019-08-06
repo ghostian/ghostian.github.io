@@ -1,48 +1,53 @@
 ---
-layout: default
-title: 404
-permalink: /404.html
+layout: page
+permalink: 404.html
 ---
+<!----------------------------------------------------------------
+     _ _           _ _          
+  __| | |__  _   _| | |         Ascii arts included in this page:
+ / _` | '_ \| | | | | |         - R2D2, provided by: http://www.chris.com/
+| (_| | |_) | |_| | | |         - Texts, generated from: http://www.network-science.de/ascii/
+ \__,_|_.__/ \__, |_|_|         http://github.com/dbtek/dbyll
+-------------|___/------------------------------------------------>
 
-<div class="container-fluid index error">
-  <div class="row">
+  <style>
+    pre {
+          background: none;
+          border: none;
+    }
+  </style>
 
-    <div class="col-md-12 content-panel articles">
-      <h1 class="header author-header">404</h1>
+  <pre>
 
-      <div class="error-text">
-        Sorry but this page doesn't seem to exist.
-      </div>
+                       444444444       000000000            444444444   
+                      4::::::::4     00:::::::::00         4::::::::4  
+                     4:::::::::4   00:::::::::::::00      4:::::::::4  
+                    4::::44::::4  0:::::::000:::::::0    4::::44::::4  
+                   4::::4 4::::4  0::::::0   0::::::0   4::::4 4::::4  
+                  4::::4  4::::4  0:::::0     0:::::0  4::::4  4::::4  
+                 4::::4   4::::4  0:::::0     0:::::0 4::::4   4::::4  
+                4::::444444::::4440:::::0 000 0:::::04::::444444::::444
+                4::::::::::::::::40:::::0 000 0:::::04::::::::::::::::4
+                4444444444:::::4440:::::0     0:::::04444444444:::::444
+                          4::::4  0:::::0     0:::::0          4::::4  
+                          4::::4  0::::::0   0::::::0          4::::4  
+                          4::::4  0:::::::000:::::::0          4::::4  
+                        44::::::44 00:::::::::::::00         44::::::44
+                        4::::::::4   00:::::::::00           4::::::::4
+                        4444444444     000000000             4444444444
 
-      <div class="error-text">
-        <a href="{{ site.baseurl }}/">Home</a> |
-        <a href="{{ site.baseurl }}/posts/">All Posts</a> |
-        <a href="{{ site.baseurl }}/search/">Search</a>
-      </div>
+         ,-----.             _   _     _           _                 _     _               _   
+       ,'_/_|_\_`.          | |_| |__ (_)___   ___| |__   ___  _   _| | __| |  _ __   ___ | |_ 
+      /<<::8[O]::>\         | __| '_ \| / __| / __| '_ \ / _ \| | | | |/ _` | | '_ \ / _ \| __|
+     _|-----------|_        | |_| | | | \__ \ \__ \ | | | (_) | |_| | | (_| | | | | | (_) | |_ 
+ :::|  | ====-=- |  |:::     \__|_| |_|_|___/ |___/_| |_|\___/ \__,_|_|\__,_| |_| |_|\___/ \__|
+ :::|  | -=-==== |  |:::                                                                         
+ :::\  | ::::|()||  /:::     _                                                          
+ ::::| | ....|()|| |::::    | |__   __ _ _ __  _ __   ___ _ __       _____   _____ _ __ 
+     | |_________| |        | '_ \ / _` | '_ \| '_ \ / _ \ '_ \     / _ \ \ / / _ \ '__|
+     | |\_______/| |        | | | | (_| | |_) | |_) |  __/ | | |_  |  __/\ V /  __/ |   
+    /   \ /   \ /   \       |_| |_|\__,_| .__/| .__/ \___|_| |_( )  \___| \_/ \___|_|   
+    `---' `---' `---'                   |_|   |_|              |/                       
 
-      {% include social_links.html %}
 
-    </div>
-
-  </div>
-
-  <div class="content-panel related">
-    {% for post in site.posts limit:1 %}
-      <div class="related-header">
-        <a href="{{ site.baseurl }}{{ post.url }}">Suggested Article</a>
-      </div>
-      <div class="title">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </div>
-      <div class="excerpt">
-         {% if post.summary %}
-          {{ post.summary | strip_html | truncatewords:30 }}
-         {% else %}
-          {{ post.excerpt | strip_html | truncatewords:30 }}
-         {% endif %}
-        <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
-      </div>
-    {% endfor %}
-  </div>
-
-</div>
+    </pre>

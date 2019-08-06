@@ -1,56 +1,37 @@
-# Carte Noire
+dbyll
+=====
 
-A simple Jekyll theme for blogging. Not named after the coffee.
+Open source stylish, minimalistic theme for jekyll.  
+Demo: http://dbtek.github.io/dbyll/
 
-![Homepage](http://i.imgur.com/xlmHArV.png)
+## New
+- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
 
-### Article
-![Article](http://i.imgur.com/8rD8FfC.png)
+### Features
+- Responsive layout.
+- Supports tags and categories.
+- Social profile and bio of author.
+- Bootstrap based.
+- Glyphicon and Font-Awesome Icons.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
+- :new: Custom sidebar background image.
 
-### Disqus Comments
-![Comments](http://i.imgur.com/TBZHQwF.png)
 
-### Posts grouped by year
-![All Posts](http://i.imgur.com/9bNs2Sc.png)
+### Download
+* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
 
-### JavaScript Search
-![Search](http://i.imgur.com/yQqMeSl.png)
+### Install
+- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
+- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
+- Go to the root of the repo and run this - ```bundle install```
+- Then - ```bundle exec jekyll serve```
 
-### Menu by mmenu
-![Menu](http://i.imgur.com/SClrNSH.png)
+### Screenshots
+![dbyll-screenshot](assets/media/dbyll-ss.png)
 
-## Contact
-If you wish to contact me regarding this theme please raise an issue on GitHub,
-tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
-[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+### License
+- [MIT](http://opensource.org/licenses/MIT)
 
-## Contribution
-Pull requests are very welcome.
-
-## Theme
-This jekyll theme has been created from scratch. Ideas and inspiration are taken
-from other places but the code is my own.
-
-## Tools and Libraries
-The following tools and libraries are used in this theme
-
-### JavaScript
- * [jQuery](http://jquery.com/)
- * [MMenu](http://mmenu.frebsite.nl/)
- * [HighlightJS](https://highlightjs.org/)
- * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-
-### CSS
- * [Bootstrap](http://getbootstrap.com/)
- * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-
-### Social
- * [AddThis](http://www.addthis.com/)
- * [Disqus](https://disqus.com/)
-
-### Other
- * [Real Favicon Generator](http://realfavicongenerator.net/)
- * [Google Analytics](http://www.google.com/analytics/)
-
-## License
-The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
