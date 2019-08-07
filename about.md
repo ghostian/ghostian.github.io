@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 Hello, My name is Junxiao Guo
 
 I'm currently pursuing my Master of Electrical and Computer Engineering at Carnegie Mellon University and plan to leverage my coursework and professional experience in the machine learning and natural language processing.
