@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: /pubs/
+permalink: /cv/
 ---
 
 ## EDUCATION
@@ -25,13 +25,15 @@ permalink: /pubs/
 
 ---
 
-### Programming Languages: Python, C, Java, Scala, HTML, CSS
+Programming Languages: Python, C, Java, Scala, HTML, CSS
 
-### Operating Systems: macOS, Linux, Windows
+Operating Systems: macOS, Linux, Windows
 
-### Others: Apache Spark, Machine Learning, Natual Lanugage Processing, HTML, CSS
+Others: Apache Spark, Machine Learning, Natual Lanugage Processing, HTML, CSS
 
 ## EXPERIENCE
+
+---
 
 ### Chinese Academy of Sciences (Intern)
 
@@ -47,7 +49,7 @@ Research Assistant Intern      (May 2018 - Dec 2018)
 
 Shanghai, China
 
-Software Development Engineer Intern(Software Development & Innovation Department) (May 2019 - Augest 2019)
+Software Development Engineer Intern (May 2019 - August 2019)
 
 * Based on the vehicle's driving, charging data, generate a real-time updated Hive database via Oozie pipeline by using Apache Spark.
 * According to the road network data provided by OpenStreetMap and GPS location data received from the vehicle, predict the actual vehicle location and match with corresponding road labels.
