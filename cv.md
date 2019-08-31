@@ -13,7 +13,6 @@ permalink: /cv/
 * Pittsburgh, Pennsylvania
   * M.S. in Electrical and Computer Engineering  （May. 2020）
   * Selected Coursework: Machine Learning, Computer System, Natural Language Processing
-  * GPA: 3.67
 
 ### Drexel University
 
