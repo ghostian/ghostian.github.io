@@ -28,7 +28,7 @@ Programming Languages: Python, C, Java, Scala, HTML, CSS
 
 Operating Systems: macOS, Linux, Windows
 
-Others: Apache Spark, Machine Learning, Natual Lanugage Processing, HTML, CSS
+Others: Apache Spark, Machine Learning, Natural Language Processing, HTML, CSS
 
 ## EXPERIENCE
 
